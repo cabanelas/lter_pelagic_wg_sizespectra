@@ -61,9 +61,9 @@ stage_mapping <- c(
   "c3_10m2" = "CIII",
   "c2_10m2" = "CII",
   "c1_10m2" = "CI",
-  "crytopia_10m2" = "Cryptopia",
+  "cryptopia_10m2" = "Cryptopia",
   "furcilia_10m2" = "Furcilia",
-  "calytopisis_10m2" = "Calyptopis", #need to fix later when i fix spelling not important
+  "calyptopis_10m2" = "Calyptopis", 
   "nauplius_10m2" = "Nauplius",
   "unknown_10m2"= "Not_Staged"
 )
@@ -257,3 +257,4 @@ zp_ESD <- zp_ESD %>%
 zp_biomass <- zp_ESD %>%
   mutate(biomass_ug = abundance_10m2 * convertedDW_ug,#ug/10m2
          biomass_mg = biomass_ug / 1000)#convert to mg/10m2 by diving by 1,000 
+
