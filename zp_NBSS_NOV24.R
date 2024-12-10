@@ -229,7 +229,7 @@ zp_ESD <- zp_ESD %>%
 # dividing DW by 1.05 = normalizes the dry weight into a volume dimension
 
 # Convert ESD from cm to µm 
-zp_merged <- zp_merged %>% mutate(ESD_um = ESD_cm * 10^4)
+zp_ESD <- zp_ESD %>% mutate(ESD_um = ESD_cm * 10^4)
 
 ## other approaches to this 
 # ESD = (3/4pi) * (DW/density)^1/3
@@ -253,5 +253,5 @@ zp_merged <- zp_merged %>% mutate(ESD_um = ESD_cm * 10^4)
 
 # Biomass = abundance * DW 
 zp_biomass <- zp_ESD %>%
-  mutate(biomass = abundance_10m2 * convertedDW,#ug/10m2
+  mutate(biomass_ug = abundance_10m2 * convertedDW,#ug/10m2
          biomass_mg = biomass / 1000)#convert to mg/10m2 by diving by 1,000 
