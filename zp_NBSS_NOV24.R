@@ -75,7 +75,7 @@ zp_long_staged <- zp_staged %>%
                values_to = "abundance_10m2") %>%
   mutate(stage = stage_mapping[stage_code]) %>%
   select(-c(conc_10m2, adult_count, c5_count, c4_count, c3_count, 
-            c2_count, c1_count, crytopia_count, furcilia_count, calytopisis_count,
+            c2_count, c1_count, cryptopia_count, furcilia_count, calyptopis_count,
             nauplius_count, unknown_count))
 
 # add unstaged taxa
@@ -204,38 +204,47 @@ zp_C <- zp_C %>%
 #         Step 5.1: Calculate Volume
 # Volume = 4/3 pi r^3
 # r = prosome length / 2
-zp_ESD <- zp_C %>%
-  mutate(r = MEAN_LENGTH_UM/2,
-         volume = (4/3)*pi*r^3)
+#zp_ESD <- zp_C %>%
+#  mutate(r = MEAN_LENGTH_UM/2,
+#         volume = (4/3)*pi*r^3)
 
 #         Step 5.2: Calculate Density - not sure if needed
 # Density = DW / V 
-zp_ESD <- zp_ESD %>%
-  mutate(density = convertedDW/volume)
+#zp_ESD <- zp_ESD %>%
+#  mutate(density = convertedDW/volume)
 
 
 #         Step 5.3: Calculate ESD
+
+# convertedDW is in micrograms (µg) 
+# Convert convertedDW from µg to grams (g) 
+convertedDW_g <- zp_merged$convertedDW * 10^-6
+
+zp_ESD <- zp_ESD %>%
+  mutate(ESD_cm = ((4*pi/3) * (convertedDW_g/1.05))^(1/3))  #i think this the way
+#add 10^-6 and 10^-4 outside 
+# convertedDW = ug
+# 1.05 = density of zooplankton (estimate) = g/cm^3
+# 1 cm = 10^4 um
+# dividing DW by 1.05 = normalizes the dry weight into a volume dimension
+
+# Convert ESD from cm to µm 
+zp_merged <- zp_merged %>% mutate(ESD_um = ESD_cm * 10^4)
+
+## other approaches to this 
 # ESD = (3/4pi) * (DW/density)^1/3
 #This formula derives from the volume of a sphere formula and assumes you are
 #calculating the diameter that would give you the same volume given the density and dry weight.
-
+# OR
 #zp_ESD <- zp_ESD %>%
 #  mutate(ESD = ((4*pi/3) * (convertedDW/density))^(1/3))
 # the density might be another source of error here..?
-
 # OR
 #zp_ESD <- zp_ESD %>%
 #  mutate(ESDv2 = (6 * volume / pi)^(1 / 3))  
-
-# OR ******************
-zp_ESD <- zp_ESD %>%
-  mutate(ESD = ((4*pi/3) * (convertedDW/1.05))^(1/3))  #i think this the way
-#add 10^-6 and 10^-4 outside 
-
 # OR 
 #zp_biomass_clean <- zp_ESD %>%
 #  mutate(ESDv4 = (3 * biomass_mg / (4 * pi * 1.05))^(1/3))
-
 
 ## ------------------------------------------ ##
 #            STEP 6 -----
