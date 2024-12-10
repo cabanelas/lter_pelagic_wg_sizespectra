@@ -163,7 +163,7 @@ zp_merged$PUBLISHED_MEAN_WEIGHT_UM <- as.numeric(zp_merged$PUBLISHED_MEAN_WEIGHT
 
 
 zp_merged <- zp_merged %>%
-  mutate(convertedDW = case_when(
+  mutate(convertedDW_ug = case_when(
     taxa_name == "Thysanoessa longicaudata" ~ PUBLISHED_MEAN_WEIGHT_UM, #eqns for euphausiids giving suspect values (very high)
     taxa_name == "Thysanoessa raschii" ~ PUBLISHED_MEAN_WEIGHT_UM,
     taxa_name == "Euphausia krohnii" ~ PUBLISHED_MEAN_WEIGHT_UM,
@@ -171,8 +171,6 @@ zp_merged <- zp_merged %>%
     Weight_type == "C" ~ PUBLISHED_MEAN_WEIGHT_UM, # use published mean weight
     TRUE ~ weight # keep original weight for other cases
   ))
-
-
 
 # Now all weights in the "convertedDW" column should be in ug
 
@@ -184,6 +182,7 @@ zp_merged <- zp_merged %>%
 #rename
 DW_to_C_convert <- DW_to_C_convert %>%
   rename(taxa_name = TAXA_NAME) 
+
 #merge - add the DW to C values to the zp df 
 zp_C <- merge(zp_merged, DW_to_C_convert, 
               by = c("taxa_name", "stage", "stage_code"), 
@@ -191,7 +190,8 @@ zp_C <- merge(zp_merged, DW_to_C_convert,
 
 # multiply DW by the conversion (usually 48%)
 zp_C <- zp_C %>%
-  mutate(convertedCARBON = convertedDW * (Per_C_DW / 100))
+  mutate(convertedCARBON = convertedDW_ug * (Per_C_DW / 100)) %>% 
+  select(-Source)
 
 
 ## ------------------------------------------ ##
@@ -218,7 +218,8 @@ zp_C <- zp_C %>%
 
 # convertedDW is in micrograms (µg) 
 # Convert convertedDW from µg to grams (g) 
-convertedDW_g <- zp_merged$convertedDW * 10^-6
+zp_ESD <- zp_C %>%
+  mutate(convertedDW_g = convertedDW_ug * 10^-6)
 
 zp_ESD <- zp_ESD %>%
   mutate(ESD_cm = ((4*pi/3) * (convertedDW_g/1.05))^(1/3))  #i think this the way
@@ -229,7 +230,8 @@ zp_ESD <- zp_ESD %>%
 # dividing DW by 1.05 = normalizes the dry weight into a volume dimension
 
 # Convert ESD from cm to µm 
-zp_ESD <- zp_ESD %>% mutate(ESD_um = ESD_cm * 10^4)
+zp_ESD <- zp_ESD %>% 
+  mutate(ESD_um = ESD_cm * 10^4)
 
 ## other approaches to this 
 # ESD = (3/4pi) * (DW/density)^1/3
@@ -253,5 +255,5 @@ zp_ESD <- zp_ESD %>% mutate(ESD_um = ESD_cm * 10^4)
 
 # Biomass = abundance * DW 
 zp_biomass <- zp_ESD %>%
-  mutate(biomass_ug = abundance_10m2 * convertedDW,#ug/10m2
-         biomass_mg = biomass / 1000)#convert to mg/10m2 by diving by 1,000 
+  mutate(biomass_ug = abundance_10m2 * convertedDW_ug,#ug/10m2
+         biomass_mg = biomass_ug / 1000)#convert to mg/10m2 by diving by 1,000 
