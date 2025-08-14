@@ -53,5 +53,19 @@ zp <- zp %>%
     TRUE ~ net_max_depth_m  # Keep existing values
   ))
 
+zp_na <- zp %>% filter(is.na(net_max_depth_m))
 
-write.csv(zp, "output/zp_NESLTER_10m2_ESD_11DEC24.csv")
+zp <- zp %>%
+  select(-1)
+
+# move columns
+zp <- zp %>%
+  relocate(sample_name, .after = cast) %>%
+  relocate(net_max_depth_m, .after = day_night)
+
+
+
+write.csv(zp, "output/zp_NESLTER_10m2_ESD_11DEC24_wNetDepth.csv")
+check <- read.csv(file.path("output",
+                            "zp_NESLTER_10m2_ESD_11DEC24_wNetDepth.csv"),
+                  header = T)

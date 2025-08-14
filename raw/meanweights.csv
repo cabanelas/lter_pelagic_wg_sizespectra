@@ -1,0 +1,70 @@
+stage_code,stage,TAXA_NAME,PUBLISHED_MEAN_WEIGHT_UM,PUBLISHED_weight_type,PUBLISHED_weight_unit,source
+ZOO_STAGE_000,Adult,Calanus finmarchicus,286.5,DW,ug,Cam Thompson + Jeff Runge table; Pitois and Fox 2006; Cornils et al 2022
+ZOO_STAGE_000,Adult,Centropages hamatus,9.58,DW,ug,Pitois and Fox 2006
+ZOO_STAGE_000,Adult,Centropages typicus,31.7,DW,ug,
+ZOO_STAGE_000,Adult,Clausocalanus arcuicornis,68,WW,ug,
+ZOO_STAGE_000,Adult,Metridia lucens,40.6,DW,ug,Cam Thompson + Jeff Runge table; Pitois and Fox 2006
+ZOO_STAGE_000,Adult,Nannocalanus minor,96,DW,ug,
+ZOO_STAGE_000,Adult,Paracalanus parvus,6.98,DW,ug,Gillooly 2000 ref Huntely and Llopez 1992
+ZOO_STAGE_000,Adult,Pseudocalanus minutus,12.1,DW,ug,Davis 1984; 23.25 ug DW Gillooly 2000
+ZOO_STAGE_000,Adult,Temora longicornis,27.6,DW,ug,Cam Thompson + Jeff Runge table
+ZOO_STAGE_000,Adult,Thysanoessa gregaria,,,,
+ZOO_STAGE_000,Adult,Thysanoessa raschii,687.369,DW,ug,Hay et al. 1991
+ZOO_STAGE_000,Adult,Thysanoessa longicaudata,447.38,DW,ug,Hay et al. 1991
+ZOO_STAGE_000,Adult,Euphausia krohnii,5000,DW,ug,Fowler et al 1971 report 2-7 mg but this seems high?
+ZOO_STAGE_024,CV,Calanus finmarchicus,236.2,DW,ug,Cam Thompson + Jeff Runge table
+ZOO_STAGE_024,CV,Centropages hamatus,16,WW,ug,Hernroth 1985
+ZOO_STAGE_024,CV,Centropages typicus,17.4,DW,ug,Cam Thompson + Jeff Runge table
+ZOO_STAGE_024,CV,Clausocalanus arcuicornis,55,WW,ug,
+ZOO_STAGE_024,CV,Metridia lucens,16.1,DW,ug,
+ZOO_STAGE_024,CV,Nannocalanus minor,,,,
+ZOO_STAGE_024,CV,Paracalanus parvus,5.9,DW,ug,
+ZOO_STAGE_024,CV,Pseudocalanus minutus,4.31,DW,ug,
+ZOO_STAGE_024,CV,Temora longicornis,13,DW,ug,
+ZOO_STAGE_023,CIV,Calanus finmarchicus,87.3,DW,ug,
+ZOO_STAGE_023,CIV,Centropages hamatus,6,DW,ug,
+ZOO_STAGE_023,CIV,Centropages typicus,8.5,DW,ug,
+ZOO_STAGE_023,CIV,Clausocalanus arcuicornis,25,WW,ug,
+ZOO_STAGE_023,CIV,Metridia lucens,10.8,DW,ug, 18.3 metridia spp in Jeff Runge
+ZOO_STAGE_023,CIV,Temora longicornis,3.33,DW,ug,
+ZOO_STAGE_022,CIII,Calanus finmarchicus,24.4,DW,ug,
+ZOO_STAGE_022,CIII,Clausocalanus arcuicornis,7,WW,ug,
+ZOO_STAGE_022,CIII,Metridia lucens,5.4,DW,ug,
+ZOO_STAGE_022,CIII,Temora longicornis,3.3,DW,ug,
+ZOO_STAGE_021,CII ,Calanus finmarchicus,8.4,DW,ug,
+ZOO_STAGE_021,CII ,Clausocalanus arcuicornis,4,WW,ug,
+ZOO_STAGE_021,CII ,Metridia lucens,3,DW,ug,
+ZOO_STAGE_021,CII ,Temora longicornis,2.17,DW,ug,
+ZOO_STAGE_020,CI,Calanus finmarchicus,3.1,DW,ug,
+ZOO_STAGE_020,CI,Clausocalanus arcuicornis,10.6,DW,ug,Pitois and Fox 2006 not staged; clausocalanus spp
+ZOO_STAGE_020,CI,Metridia lucens,0.8,DW,ug,
+ZOO_STAGE_029,Furcilia,Thysanoessa gregaria,1.4,DW,ug,
+ZOO_STAGE_029,Furcilia,Thysanoessa raschii,,,,
+ZOO_STAGE_029,Furcilia,Thysanoessa longicaudata,,,,
+ZOO_STAGE_029,Furcilia,Euphausia krohnii,,,,
+ZOO_STAGE_028,Calyptopis,Thysanoessa gregaria,,,,
+ZOO_STAGE_028,Calyptopis,Thysanoessa raschii,,,,
+ZOO_STAGE_028,Calyptopis,Thysanoessa longicaudata,,,,
+ZOO_STAGE_028,Calyptopis,Euphausia krohnii,,,,
+ZOO_STAGE_013,Nauplius,Thysanoessa gregaria,,,,
+ZOO_STAGE_013,Nauplius,Thysanoessa raschii,,,,
+ZOO_STAGE_013,Nauplius,Thysanoessa longicaudata,,,,
+ZOO_STAGE_013,Nauplius,Euphausia krohnii,,,,
+ZOO_STAGE_030,Cryptopia,NA ,,,,
+Not_Staged,Not_Staged,Copepoda,,,,
+Not_Staged,Not_Staged,Amphipoda,63.663,DW,ug,Hay et al. 1991
+Not_Staged,Not_Staged,Euphausiacea,2220,DW,ug,Debbie Steinberg 
+Not_Staged,Not_Staged,Appendicularia,5.4,DW,ug,mean from a wide table provided by them; not sure how good; Gorsky et al 1987; ASDW 3.30 ug
+Not_Staged,Not_Staged,Chaetognatha,48.399,DW,ug,Hay et al. 1991
+Not_Staged,Not_Staged,Oithona spp.,2.034,DW,ug,Hay et al. 1991; 0.78 Swadling et al 1997
+Not_Staged,Not_Staged,Ostracoda,,,,
+Not_Staged,Not_Staged,Hyperiidea,,,,
+Not_Staged,Not_Staged,Thaliacea,,,,
+Not_Staged,Not_Staged,Thecosomata,,,,
+Not_Staged,Not_Staged,Cnidaria,,,,
+Not_Staged,Not_Staged,Acartia,,,,
+Not_Staged,Not_Staged,Penilia avirostris,,,,
+Not_Staged,Not_Staged,Echinodermata,,,,
+Not_Staged,Not_Staged,Pleuromamma,,,,
+Not_Staged,Not_Staged,Forams,,,,
+Not_Staged,Not_Staged,Oncaea,6.8,DW,ug,AFDW; mean from Hopcroft and Roff 1998 and Paffenhofer 2006 reported values in Bottger-Schnack and Schnack 2023

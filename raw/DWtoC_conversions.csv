@@ -1,0 +1,70 @@
+stage_code,stage,TAXA_NAME,Per_C_DW,Source
+ZOO_STAGE_000,Adult,Calanus finmarchicus,48,
+ZOO_STAGE_000,Adult,Centropages hamatus,48,
+ZOO_STAGE_000,Adult,Centropages typicus,48,
+ZOO_STAGE_000,Adult,Clausocalanus arcuicornis,48,
+ZOO_STAGE_000,Adult,Metridia lucens,48,
+ZOO_STAGE_000,Adult,Nannocalanus minor,48,
+ZOO_STAGE_000,Adult,Paracalanus parvus,48,
+ZOO_STAGE_000,Adult,Pseudocalanus minutus,48,
+ZOO_STAGE_000,Adult,Temora longicornis,48,
+ZOO_STAGE_000,Adult,Thysanoessa gregaria,41.9,
+ZOO_STAGE_000,Adult,Thysanoessa raschii,41.9,
+ZOO_STAGE_000,Adult,Thysanoessa longicaudata,41.9,
+ZOO_STAGE_000,Adult,Euphausia krohnii,31.1,
+ZOO_STAGE_024,CV,Calanus finmarchicus,48,
+ZOO_STAGE_024,CV,Centropages hamatus,48,
+ZOO_STAGE_024,CV,Centropages typicus,48,
+ZOO_STAGE_024,CV,Clausocalanus arcuicornis,48,
+ZOO_STAGE_024,CV,Metridia lucens,48,
+ZOO_STAGE_024,CV,Nannocalanus minor,48,
+ZOO_STAGE_024,CV,Paracalanus parvus,48,
+ZOO_STAGE_024,CV,Pseudocalanus minutus,48,
+ZOO_STAGE_024,CV,Temora longicornis,48,
+ZOO_STAGE_023,CIV,Calanus finmarchicus,48,
+ZOO_STAGE_023,CIV,Centropages hamatus,48,
+ZOO_STAGE_023,CIV,Centropages typicus,48,
+ZOO_STAGE_023,CIV,Clausocalanus arcuicornis,48,
+ZOO_STAGE_023,CIV,Metridia lucens,48,
+ZOO_STAGE_023,CIV,Temora longicornis,48,
+ZOO_STAGE_022,CIII,Calanus finmarchicus,48,
+ZOO_STAGE_022,CIII,Clausocalanus arcuicornis,48,
+ZOO_STAGE_022,CIII,Metridia lucens,48,
+ZOO_STAGE_022,CIII,Temora longicornis,48,
+ZOO_STAGE_021,CII ,Calanus finmarchicus,48,
+ZOO_STAGE_021,CII ,Clausocalanus arcuicornis,48,
+ZOO_STAGE_021,CII ,Metridia lucens,48,
+ZOO_STAGE_021,CII ,Temora longicornis,48,
+ZOO_STAGE_020,CI,Calanus finmarchicus,48,
+ZOO_STAGE_020,CI,Clausocalanus arcuicornis,48,
+ZOO_STAGE_020,CI,Metridia lucens,48,
+ZOO_STAGE_029,Furcilia,Thysanoessa gregaria,41.9,
+ZOO_STAGE_029,Furcilia,Thysanoessa raschii,41.9,
+ZOO_STAGE_029,Furcilia,Thysanoessa longicaudata,41.9,
+ZOO_STAGE_029,Furcilia,Euphausia krohnii,41.9,
+ZOO_STAGE_028,Calyptopis,Thysanoessa gregaria,41.9,
+ZOO_STAGE_028,Calyptopis,Thysanoessa raschii,41.9,
+ZOO_STAGE_028,Calyptopis,Thysanoessa longicaudata,41.9,
+ZOO_STAGE_028,Calyptopis,Euphausia krohnii,41.9,
+ZOO_STAGE_013,Nauplius,Thysanoessa gregaria,41.9,
+ZOO_STAGE_013,Nauplius,Thysanoessa raschii,41.9,
+ZOO_STAGE_013,Nauplius,Thysanoessa longicaudata,41.9,
+ZOO_STAGE_013,Nauplius,Euphausia krohnii,41.9,
+ZOO_STAGE_030,Cryptopia,NA ,NA,
+Not_Staged,Not_Staged,Copepoda,48,
+Not_Staged,Not_Staged,Amphipoda,28.63,average of 3 species Gorsky et al 1988
+Not_Staged,Not_Staged,Euphausiacea,34.5,average of 4 euphausiids Gorsky et al 1988
+Not_Staged,Not_Staged,Appendicularia,54.45,average of 2 Oikopleura spp Gorsky et al 1988; 29.5 for Oikopleura longicauda Schichinohe 2000
+Not_Staged,Not_Staged,Chaetognatha,46.45,average of 4 Sagitta species values reported by Gorsky et al 1988. Sagitta elegans 44.2 Imao 2005; Ikeda and Takahashi 2013; and Nakamura et al 2017
+Not_Staged,Not_Staged,Oithona spp.,37,Bamstedt 1986 in Bottger-Schnack 2005; 45-50 Swadling 1997
+Not_Staged,Not_Staged,Ostracoda,39.8,Lavaniegos and Ohman 2007
+Not_Staged,Not_Staged,Hyperiidea,36.5,Lavaniegos and Ohman 2007
+Not_Staged,Not_Staged,Thaliacea,11.3,Pyrosomes in Lavanigos and Ohman 2007. Salpa fusiformis 4.6 in Nakamura et al 2007
+Not_Staged,Not_Staged,Thecosomata,22.1,Lavaniegos and Ohman 2007
+Not_Staged,Not_Staged,Cnidaria,11.4,this value is for Pelagia noctiluca Gorsky et al 1988; Nakamura et al 2017 report 3.8%
+Not_Staged,Not_Staged,Acartia,40.3,value for Acartia clausi Gorsky et al 1988
+Not_Staged,Not_Staged,Penilia avirostris,,
+Not_Staged,Not_Staged,Echinodermata,,
+Not_Staged,Not_Staged,Pleuromamma,47.7,for Pleuromamma scutullata C6 by Ikeda et al 2006 reported in Nakamura et al 2017 table 2
+Not_Staged,Not_Staged,Forams,,
+Not_Staged,Not_Staged,Oncaea,50,Satapoomin 1999 in Bottger-Schnack and Schnack 2023
