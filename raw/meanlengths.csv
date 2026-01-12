@@ -1,70 +1,136 @@
-stage_code,stage,TAXA_NAME,MEAN_LENGTH_UM,MEAN_LENGTH_TYPE,source
-ZOO_STAGE_000,Adult,Calanus finmarchicus,2562,PL,Gluchowska et al 2017
-ZOO_STAGE_000,Adult,Centropages hamatus,1130,PL,Marine Planktonic Copepods website (Razouls) re Martynova et al 2009 White Sea for females; Marshall 1949 in Conway DVP 2012
-ZOO_STAGE_000,Adult,Centropages typicus,1210,PL,Cam Thompson + Jeff Runge table; Hay et al. 1991; Saiz et al 1999; Bonnet et al 2007; Razouls and Razouls 1976
-ZOO_STAGE_000,Adult,Clausocalanus arcuicornis,1320,PL,Cedras and Gibbons 2021; Marine Planktonic Copepods website (Razouls)
-ZOO_STAGE_000,Adult,Metridia lucens,1443,PL,ICES WGZE; Conway DVP 2012 [Northern North Sea Apr 1974]; Cam Thompson + Jeff Runge; Hay et al. 1991
-ZOO_STAGE_000,Adult,Nannocalanus minor,1500,PL,Andronov et al 2006
-ZOO_STAGE_000,Adult,Paracalanus parvus,720,PL,Harvey Walsh/EcoMon; Marine Planktonic Copepods website (Razouls); range PL Marshall 1949 in Conway DVP 2012; Hay et al. 1991
-ZOO_STAGE_000,Adult,Pseudocalanus minutus,1000,CL,Raymont 1959 [Woods Hole]
-ZOO_STAGE_000,Adult,Temora longicornis,960,PL,Cam Thompson + Jeff Runge table; Marshall 1949 Digby 1950 Conway DVP 2012
-ZOO_STAGE_000,Adult,Thysanoessa gregaria,12500,TL,average from Euphausiids World Ocean; 8000-18000um Kulagin et al 2024
-ZOO_STAGE_000,Adult,Thysanoessa raschii,18400,TL,Euphausiids World Ocean; Hay et al. 1991
-ZOO_STAGE_000,Adult,Thysanoessa longicaudata,13300,TL,Euphausiids World Ocean; Hay et al. 1991
-ZOO_STAGE_000,Adult,Euphausia krohnii,15500,TL,Euphausiids World Ocean
-ZOO_STAGE_024,CV,Calanus finmarchicus,2330,PL,Campbell et al 2001; Davis 1984; Conway DVP 2012; Cornils et al 2022; Gluchowska et al 2017
-ZOO_STAGE_024,CV,Centropages hamatus,890,PL,ICES WGZE; Conway DVP 2012
-ZOO_STAGE_024,CV,Centropages typicus,990,PL,ICES WGZE; Conway DVP 2012 ref Lawson and Grice 1970;  Cam Thompson + Jeff Runge table; Bonnet et al. 2001
-ZOO_STAGE_024,CV,Clausocalanus arcuicornis,800,CL,Marine Planktonic Copepods website (Razouls) re Shmeleva 1965 [Mediterranean Sea]
-ZOO_STAGE_024,CV,Metridia lucens,1220,PL,ICES WGZE; Conway DVP 2012; Cam Thompson + Jeff Runge table
-ZOO_STAGE_024,CV,Nannocalanus minor,1200,PL,ICES WGZE; Marine Planktonic Copepods website (Razouls); Conway DVP 2012
-ZOO_STAGE_024,CV,Paracalanus parvus,650,PL,Deb [NES]; ICES_WG; Davis 1984
-ZOO_STAGE_024,CV,Pseudocalanus minutus,880,PL,Davis 1984; Cam Thompson + Jeff Runge table
-ZOO_STAGE_024,CV,Temora longicornis,750,PL,ICES WGZE; Cam Thompson + Jeff Runge table; Conway DVP 2012
-ZOO_STAGE_023,CIV,Calanus finmarchicus,1745,PL,Campbell et al 2001; Davis 1984; Conway DVP 2012 [western Scotland October 1933]; Cornils et al 2022; Gluchowska et al 2017
-ZOO_STAGE_023,CIV,Centropages hamatus,750,PL,ICES WGZE; Conway DVP 2012; Cam Thompson + Jeff Runge table; Marine Planktonic Copepods website (Razouls) re Martynova et al 2009 [White Sea]
-ZOO_STAGE_023,CIV,Centropages typicus,870,PL,Cam Thompson + Jeff Runge table; Carlotti et al 2007; Conway DVP 2012 ref Lawson and Grice 1970
-ZOO_STAGE_023,CIV,Clausocalanus arcuicornis,634,CL,Marine Planktonic Copepods website (Razouls) re Shmeleva 1965 [Mediterranean Sea]
-ZOO_STAGE_023,CIV,Metridia lucens,900,PL,ICES_WG; Conway DVP 2012; Cam Thompson + Jeff Runge table
-ZOO_STAGE_023,CIV,Temora longicornis,590,PL,Cam Thompson + Jeff Runge table; ICES WGZE; Conway DVP 2012
-ZOO_STAGE_022,CIII,Calanus finmarchicus,1320,PL,Campbell et al 2001; Davis 1984; Conway DVP 2012; Cornils et al 2022; Gluchowska et al 2017; Cornils et al 2022; Gluchowska et al 2017
-ZOO_STAGE_022,CIII,Clausocalanus arcuicornis,511,CL,Marine Planktonic Copepods website (Razouls) re Shmeleva 1965 [Mediterranean Sea]
-ZOO_STAGE_022,CIII,Metridia lucens,750,PL,Cam Thompson + Jeff Runge table; ICES WGZE; Conway DVP 2012
-ZOO_STAGE_022,CIII,Temora longicornis,490,PL,Cam Thompson + Jeff Runge table; ICES WGZE; Conway DVP 2012
-ZOO_STAGE_021,CII ,Calanus finmarchicus,930,PL,Campbell et al 2001; Davis 1984; Conway DVP 2012; Cornils et al 2022; Gluchowska et al 2017
-ZOO_STAGE_021,CII ,Clausocalanus arcuicornis,373,CL,Marine Planktonic Copepods website (Razouls) re Shmeleva 1965 [Mediterranean Sea]
-ZOO_STAGE_021,CII ,Metridia lucens,600,PL,ICES WGZE; Conway DVP 2012; Cam Thompson + Jeff Runge table
-ZOO_STAGE_021,CII ,Temora longicornis,400,PL,ICES_WG; Conway DVP 2012; Cam Thompson + Jeff Runge table
-ZOO_STAGE_020,CI,Calanus finmarchicus,680,PL,Campbell et al 2001; Davis 1984; Conway DVP 2012; Cornils et al 2022; Gluchowska et al 2017
-ZOO_STAGE_020,CI,Clausocalanus arcuicornis,NA,NA,NA
-ZOO_STAGE_020,CI,Metridia lucens,410,PL,ICES_WGZE; Conway DVP 2012; Cam Thompson + Jeff Runge table
-ZOO_STAGE_029,Furcilia,Thysanoessa gregaria,3275,TL,Euphausiids World Ocean
-ZOO_STAGE_029,Furcilia,Thysanoessa raschii,6050,TL,Euphausiids World Ocean
-ZOO_STAGE_029,Furcilia,Thysanoessa longicaudata,4500,TL,Euphausiids World Ocean
-ZOO_STAGE_029,Furcilia,Euphausia krohnii,4250,TL,Euphausiids World Ocean
-ZOO_STAGE_028,Calyptopis,Thysanoessa gregaria,1700,TL,Euphausiids World Ocean
-ZOO_STAGE_028,Calyptopis,Thysanoessa raschii,1730,TL,Euphausiids World Ocean
-ZOO_STAGE_028,Calyptopis,Thysanoessa longicaudata,1750,TL,Euphausiids World Ocean
-ZOO_STAGE_028,Calyptopis,Euphausia krohnii,1840,TL,Euphausiids World Ocean
-ZOO_STAGE_013,Nauplius,Thysanoessa gregaria,NA,NA,NA
-ZOO_STAGE_013,Nauplius,Thysanoessa raschii,470,TL,Euphausiids World Ocean
-ZOO_STAGE_013,Nauplius,Thysanoessa longicaudata,NA,NA,NA
-ZOO_STAGE_013,Nauplius,Euphausia krohnii,500,TL,Euphausiids World Ocean
-ZOO_STAGE_030,Cryptopia,NA ,NA,NA,NA
-Not_Staged,Not_Staged,Copepoda,2830,PL,Lavaniegos and Ohman 2007 [N. Pacific]
-Not_Staged,Not_Staged,Amphipoda,2590,SL,Hay et al. 1991 from Parathemisto sp.; this seems to be on the lower size range
-Not_Staged,Not_Staged,Euphausiacea,NA,NA,NA
-Not_Staged,Not_Staged,Appendicularia,603,TL,mean from a wide table provided by them; not sure how good; Gorsky et al 1987
-Not_Staged,Not_Staged,Chaetognatha,7600,SL,Hay et al. 1991
-Not_Staged,Not_Staged,Oithona spp.,520,SL,Hay et al. 1991
-Not_Staged,Not_Staged,Ostracoda,,,
-Not_Staged,Not_Staged,Hyperiidea,,,
-Not_Staged,Not_Staged,Thaliacea,,,
-Not_Staged,Not_Staged,Thecosomata,,,
-Not_Staged,Not_Staged,Cnidaria,,,
-Not_Staged,Not_Staged,Acartia,,,
-Not_Staged,Not_Staged,Penilia avirostris,,,
-Not_Staged,Not_Staged,Echinodermata,,,
-Not_Staged,Not_Staged,Pleuromamma,,,
-Not_Staged,Not_Staged,Forams,,,
-Not_Staged,Not_Staged,Oncaea,635,PL,200-1066 um PL Bottger-Schnack and Schnack 2023; 0.36-1.07mm Morales-Ramirez and Jakob 2008 from Costa Rica spp
+stage_code,stage,taxa_name,mean_length_um,mean_length_type,source,
+ZOO_STAGE_000,Adult,Calanus finmarchicus,2562,PL,Gluchowska et al 2017,
+ZOO_STAGE_000,Adult,Centropages hamatus,1130,PL,Marine Planktonic Copepods website (Razouls) re Martynova et al 2009 White Sea for females; Marshall 1949 in Conway DVP 2012,
+ZOO_STAGE_000,Adult,Centropages typicus,1210,PL,Cam Thompson + Jeff Runge table; Hay et al. 1991; Saiz et al 1999; Bonnet et al 2007; Razouls and Razouls 1976,
+ZOO_STAGE_000,Adult,Clausocalanus arcuicornis,1320,PL,Cedras and Gibbons 2021; Marine Planktonic Copepods website (Razouls),
+ZOO_STAGE_000,Adult,Metridia lucens,1443,PL,ICES WGZE; Conway DVP 2012 [Northern North Sea Apr 1974]; Cam Thompson + Jeff Runge; Hay et al. 1991,
+ZOO_STAGE_000,Adult,Nannocalanus minor,1500,PL,Andronov et al 2006,
+ZOO_STAGE_000,Adult,Paracalanus parvus,720,PL,Harvey Walsh/EcoMon; Marine Planktonic Copepods website (Razouls); range PL Marshall 1949 in Conway DVP 2012; Hay et al. 1991,
+ZOO_STAGE_000,Adult,Pseudocalanus minutus,1000,CL,Raymont 1959 [Woods Hole],
+ZOO_STAGE_000,Adult,Temora longicornis,960,PL,Cam Thompson + Jeff Runge table; Marshall 1949 Digby 1950 Conway DVP 2012,
+ZOO_STAGE_000,Adult,Thysanoessa gregaria,12500,TL,average from Euphausiids World Ocean; 8000-18000um Kulagin et al 2024,
+ZOO_STAGE_000,Adult,Thysanoessa raschii,18400,TL,Euphausiids World Ocean; Hay et al. 1991,
+ZOO_STAGE_000,Adult,Thysanoessa longicaudata,13300,TL,Euphausiids World Ocean; Hay et al. 1991,
+ZOO_STAGE_000,Adult,Euphausia krohnii,15500,TL,Euphausiids World Ocean,
+ZOO_STAGE_024,CV,Calanus finmarchicus,2330,PL,Campbell et al 2001; Davis 1984; Conway DVP 2012; Cornils et al 2022; Gluchowska et al 2017,
+ZOO_STAGE_024,CV,Centropages hamatus,890,PL,ICES WGZE; Conway DVP 2012,
+ZOO_STAGE_024,CV,Centropages typicus,990,PL,ICES WGZE; Conway DVP 2012 ref Lawson and Grice 1970;  Cam Thompson + Jeff Runge table; Bonnet et al. 2001,
+ZOO_STAGE_024,CV,Clausocalanus arcuicornis,800,CL,Marine Planktonic Copepods website (Razouls) re Shmeleva 1965 [Mediterranean Sea],
+ZOO_STAGE_024,CV,Metridia lucens,1220,PL,ICES WGZE; Conway DVP 2012; Cam Thompson + Jeff Runge table,
+ZOO_STAGE_024,CV,Nannocalanus minor,1200,PL,ICES WGZE; Marine Planktonic Copepods website (Razouls); Conway DVP 2012,
+ZOO_STAGE_024,CV,Paracalanus parvus,650,PL,Deb [NES]; ICES_WG; Davis 1984,
+ZOO_STAGE_024,CV,Pseudocalanus minutus,880,PL,Davis 1984; Cam Thompson + Jeff Runge table,
+ZOO_STAGE_024,CV,Temora longicornis,750,PL,ICES WGZE; Cam Thompson + Jeff Runge table; Conway DVP 2012,
+ZOO_STAGE_023,CIV,Calanus finmarchicus,1745,PL,Campbell et al 2001; Davis 1984; Conway DVP 2012 [western Scotland October 1933]; Cornils et al 2022; Gluchowska et al 2017,
+ZOO_STAGE_023,CIV,Centropages hamatus,750,PL,ICES WGZE; Conway DVP 2012; Cam Thompson + Jeff Runge table; Marine Planktonic Copepods website (Razouls) re Martynova et al 2009 [White Sea],
+ZOO_STAGE_023,CIV,Centropages typicus,870,PL,Cam Thompson + Jeff Runge table; Carlotti et al 2007; Conway DVP 2012 ref Lawson and Grice 1970,
+ZOO_STAGE_023,CIV,Clausocalanus arcuicornis,634,CL,Marine Planktonic Copepods website (Razouls) re Shmeleva 1965 [Mediterranean Sea],
+ZOO_STAGE_023,CIV,Metridia lucens,900,PL,ICES_WG; Conway DVP 2012; Cam Thompson + Jeff Runge table,
+ZOO_STAGE_023,CIV,Temora longicornis,590,PL,Cam Thompson + Jeff Runge table; ICES WGZE; Conway DVP 2012,
+ZOO_STAGE_022,CIII,Calanus finmarchicus,1320,PL,Campbell et al 2001; Davis 1984; Conway DVP 2012; Cornils et al 2022; Gluchowska et al 2017; Cornils et al 2022; Gluchowska et al 2017,
+ZOO_STAGE_022,CIII,Clausocalanus arcuicornis,511,CL,Marine Planktonic Copepods website (Razouls) re Shmeleva 1965 [Mediterranean Sea],
+ZOO_STAGE_022,CIII,Metridia lucens,750,PL,Cam Thompson + Jeff Runge table; ICES WGZE; Conway DVP 2012,
+ZOO_STAGE_022,CIII,Temora longicornis,490,PL,Cam Thompson + Jeff Runge table; ICES WGZE; Conway DVP 2012,
+ZOO_STAGE_021,CII ,Calanus finmarchicus,930,PL,Campbell et al 2001; Davis 1984; Conway DVP 2012; Cornils et al 2022; Gluchowska et al 2017,
+ZOO_STAGE_021,CII ,Clausocalanus arcuicornis,373,CL,Marine Planktonic Copepods website (Razouls) re Shmeleva 1965 [Mediterranean Sea],
+ZOO_STAGE_021,CII ,Metridia lucens,600,PL,ICES WGZE; Conway DVP 2012; Cam Thompson + Jeff Runge table,
+ZOO_STAGE_021,CII ,Temora longicornis,400,PL,ICES WGZE; Conway DVP 2012; Cam Thompson + Jeff Runge table,
+ZOO_STAGE_020,CI,Calanus finmarchicus,680,PL,Campbell et al 2001; Davis 1984; Conway DVP 2012; Cornils et al 2022; Gluchowska et al 2017,
+ZOO_STAGE_020,CI,Clausocalanus arcuicornis,350,PL,estimate based on CII lengths and comparing to CI:C2 T. longicornis ratios,
+ZOO_STAGE_020,CI,Metridia lucens,410,PL,ICES_WGZE; Conway DVP 2012; Cam Thompson + Jeff Runge table,
+ZOO_STAGE_029,Furcilia,Thysanoessa gregaria,3275,TL,Euphausiids World Ocean,
+ZOO_STAGE_029,Furcilia,Thysanoessa raschii,6050,TL,Euphausiids World Ocean,
+ZOO_STAGE_029,Furcilia,Thysanoessa longicaudata,4500,TL,Euphausiids World Ocean,
+ZOO_STAGE_029,Furcilia,Euphausia krohnii,4250,TL,Euphausiids World Ocean,
+ZOO_STAGE_028,Calyptopis,Thysanoessa gregaria,1700,TL,Euphausiids World Ocean,
+ZOO_STAGE_028,Calyptopis,Thysanoessa raschii,1730,TL,Euphausiids World Ocean,
+ZOO_STAGE_028,Calyptopis,Thysanoessa longicaudata,1750,TL,Euphausiids World Ocean,
+ZOO_STAGE_028,Calyptopis,Euphausia krohnii,1840,TL,Euphausiids World Ocean,
+ZOO_STAGE_013,Nauplius,Thysanoessa gregaria,450,NA,estimate based on T. raschii,
+ZOO_STAGE_013,Nauplius,Thysanoessa raschii,470,TL,Euphausiids World Ocean,
+ZOO_STAGE_013,Nauplius,Thysanoessa longicaudata,450,NA,estimate based on T. raschii,
+ZOO_STAGE_013,Nauplius,Euphausia krohnii,500,TL,Euphausiids World Ocean,
+ZOO_STAGE_030,Cryptopia,NA ,NA,NA,NA,
+Not_Staged,Not_Staged,Copepoda,2830,PL,Lavaniegos and Ohman 2007 [N. Pacific],
+Not_Staged,Not_Staged,Amphipoda,2590,SL,Hay et al. 1991 from Parathemisto sp.; this seems to be on the lower size range,
+Not_Staged,Not_Staged,Euphausiacea,14000,TL,mean of other adult euphausiid species,
+Not_Staged,Not_Staged,Appendicularia,603,TL,mean from a wide table provided by them; not sure how good; Gorsky et al 1987,
+Not_Staged,Not_Staged,Chaetognatha,7600,SL,Hay et al. 1991,
+Not_Staged,Not_Staged,Oithona spp.,520,SL,Hay et al. 1991; Sabatini and Kiorboe 1994,
+Not_Staged,Not_Staged,Ostracoda,1000,TL,Ikeda 1990; science direct general estimate,
+Not_Staged,Not_Staged,Hyperiidea,15000,TL,Kraft et al. 2012,
+Not_Staged,Not_Staged,Thaliacea,26000,TL,Heron et al 1988,
+Not_Staged,Not_Staged,Thecosomata,1200,TL,Lalli and Wells 1978,
+Not_Staged,Not_Staged,Cnidaria,4000,TL,Tosetto et al. 2019,
+Not_Staged,Not_Staged,Acartia,1000,PL,EcoMon H. Walsh,
+Not_Staged,Not_Staged,Penilia avirostris,750,TL,Smirnov and Timms 1983; Bernier and Locke 2006,
+Not_Staged,Not_Staged,Echinodermata,1000,TL,McEdward et al. 1986,
+Not_Staged,Not_Staged,Pleuromamma,1500,PL,Halbert et al. 2013,
+Not_Staged,Not_Staged,Forams,600,TL,Spezzaferri et al. 2018,
+Not_Staged,Not_Staged,Oncaea,635,PL,200-1066 um PL Bottger-Schnack and Schnack 2023; 0.36-1.07mm Morales-Ramirez and Jakob 2008 from Costa Rica spp,
+Not_Staged,Not_Staged,Acartia tonsa,900,PL,Muxagata PhD 2005,
+Not_Staged,Not_Staged,Harpacticoida,830,PL,Hay et al. 1991,
+Not_Staged,Not_Staged,Evadne,730,SL,Hay et al. 1991,
+Not_Staged,Not_Staged,Podon,900,SL,Hay et al. 1991; Elineau et al 2024 EcoTaxoGuide; Gleiber et al 2022,
+Not_Staged,Not_Staged,Acartia longiremis,1000,PL,Harvey Walsh EcoMon,
+Not_Staged,Not_Staged,Nematoscelis megalops,24000,TL,Euphausiids World Ocean; 22mm TL Knutsen et al 2024,
+Not_Staged,Not_Staged,Clausocalanus furcatus,1000,TL,UTAS IMAS,
+Not_Staged,Not_Staged,Ctenocalanus vanus,1000,TL,Villefranche sur Mer - Stephane Gasparini,
+Not_Staged,Not_Staged,Acartia danae,1000,TL,C. H. Davies & A. S. Slotwinski 2012; D. V. P. Conway 2013,
+Not_Staged,Not_Staged,Calanoida nauplius,400,TL,Daase et al 2011 re Ogilvie 1953 & Hygum et al 2000,
+Not_Staged,Not_Staged,Candacia,1600,TL,UTAS IMAS and Razouls Copepods; Pitois et al 2021,
+Not_Staged,Not_Staged,Centropages bradyi,2100,TL,Brun et al 2016,
+Not_Staged,Not_Staged,Clausocalanus,1200,TL,Razouls Copepods,
+Not_Staged,Not_Staged,Eucalanus,4000,TL,Fleminger 1973,
+Not_Staged,Not_Staged,Euchaetidae,4000,TL,Mauchline Leaflet No 182 ICES 1999,
+Not_Staged,Not_Staged,Labidocera,2000,TL,Razouls Copepods. Smith et al. 2017; rare,
+Not_Staged,Not_Staged,Rhincalanus,3000,TL,Razouls Copepods,
+Not_Staged,Not_Staged,Scolecitrichidae,1300,PL,Conway DVP 2012 ,
+Not_Staged,Not_Staged,Temora stylifera,965,PL,Razouls Copepods: C. Halsband-Lenk et al 2002,
+Not_Staged,Not_Staged,Temora turbinata,1100,PL,Razouls Copepods: N. Phukham et al 2008,
+Not_Staged,Not_Staged,Balanidae,400,TL,Lang 1979 NOAA Tech Report Circular 421; Muxagata PhD 2005,
+Not_Staged,Not_Staged,Bivalvia,200,TL,,
+Not_Staged,Not_Staged,Ectoprocta,500,TL,Windson et al. 1982 & Ryland 2005,
+Not_Staged,Not_Staged,Gastropoda,150,TL,,
+Not_Staged,Not_Staged,Oikopleura,1100,TL,,
+Not_Staged,Not_Staged,Polychaeta,200,TL,,
+Not_Staged,Not_Staged,Sagitta,9000,SL,Coston-Clements et al. 2009,
+Not_Staged,Not_Staged,Siphonophora,6000,SL,,
+Not_Staged,Not_Staged,Heteropoda,4000,TL,,
+Not_Staged,Not_Staged,Aetideidae,2400,PL,Identification Manual by Elena L. Markhaseva (1996); Koguchi et al 2022,
+Not_Staged,Not_Staged,Calanoida,1500,PL,Razouls; Conway 2003,
+Not_Staged,Not_Staged,Calocalanus,780,PL,Hopcroft et al 1998; Razouls,
+Not_Staged,Not_Staged,Centropages,1100,PL,smaller than centropages to account for hamatus; close to C. furcatus size by Hopcroft et al 1998,
+Not_Staged,Not_Staged,Corycaeidae,1000,PL,Razouls; EcoTaxoGuide; 0.695 Piontkovski et al 2008,
+Not_Staged,Not_Staged,Cyclopoida,1000,PL,Razouls,
+Not_Staged,Not_Staged,Lucicutia,1200,PL,UTAS IMAS; Lee et al 2024; Brun_P et-al 2016 (9.5 av mm); Piontkovski et al 2008,
+Not_Staged,Not_Staged,Neocalanus,1700,PL,Piontkovski et al 2008,
+Not_Staged,Not_Staged,Pleuromamma borealis,1800,PL,Piontkovski et al 2008; Register of Antarctic Spp ras.biodiversiy.aq,
+Not_Staged,Not_Staged,Pseudocalanidae,1000,PL,Piontkovski et al 2008; Razouls,
+Not_Staged,Not_Staged,Heterorhabdidae,1900,PL,Piontkovski et al 2008,
+Not_Staged,Not_Staged,Centropages furcatus,1050,PL,Hopcroft et al 1998,
+Not_Staged,Not_Staged,Corycaeus,1200,PL,UTAS IMAS; Razouls; 722 um Wi and Soh; 1.4 Piontkovski et al 2008,
+Not_Staged,Not_Staged,Mecynocera clausi,1000,PL,Piontkovski et al 2008,
+Not_Staged,Not_Staged,Metridia,4000,PL,Razouls ,
+Not_Staged,Not_Staged,Paracalanus,650,PL,,
+Not_Staged,Not_Staged,Pontellidae,2300,PL,Piontkovski et al 2008,
+Not_Staged,Not_Staged,Temora,1400,PL,Razouls; ICES ID Leaflets No. 195 (2021); Villefranche sur Mer - Stephane Gasparini,
+Not_Staged,Not_Staged,Tortanus discaudatus,1800,PL,Razouls; WoRMS; Baptie et al 2017; Brum et al 2016; Phillips 1976 UNH; https://www.st.nmfs.noaa.gov/nauplius/media/copepedia/taxa/T4003232/html/biometricframe.html,
+Not_Staged,Not_Staged,Undinula vulgaris,2200,PL,Piontkovski et al 2008; Razouls; https://www.st.nmfs.noaa.gov/copepedia/taxa/T4000056/html/biometricframe.html,
+Not_Staged,Not_Staged,Brachyura,1100,TL,Di Muzio et al 2019; Konishi 1983; Hart 1935; Lebour 1928,
+Not_Staged,Not_Staged,Caridea,4000,TL,Bartilotti and Dos Santos 2019; Heard and Spotte 1997,
+Not_Staged,Not_Staged,Creseis,5000,TL,Severns and PF 1991; Gasca and Janssen 2013; SeaLifeBase,
+Not_Staged,Not_Staged,Cumacea,5000,TL,EcoTaxoGuide; Petrescu and Heard 2004,
+Not_Staged,Not_Staged,Decapoda,450,TL,Piontkovski et al 2008,
+Not_Staged,Not_Staged,Gammaridae,8000,TL,,
+Not_Staged,Not_Staged,Gammaridea,12000,TL,Weslawski et al 2020,34mm in Knutsen et al 2024
+Not_Staged,Not_Staged,Lucifer,8000,TL,UTAS IMAS; Naomi et al 2006; 3800 TL Vega-Perez et al 1996,
+Not_Staged,Not_Staged,Mysida,4000,TL,Piontkovski et al 2008; Wittmann 2024; Allyn et al 2024; Panampunnayil 2002,
+Not_Staged,Not_Staged,Paguridea,5000,TL,Squires and Dawe 2001,
+Not_Staged,Not_Staged,Sagitta elegans,11000,TL,Alvarez-Cadena 1991; Tiselius and Peterson 1986; Conway and Williams 1986,
+Not_Staged,Not_Staged,Salpidae,3700,TL,Piontkovski et al 2008,
+Not_Staged,Not_Staged,Calanus,2500,TL,,
+Not_Staged,Not_Staged,Augaptilidae,2500,PL,rare; Razouls; Andronov & Kosobokva 2024 https://www.st.nmfs.noaa.gov/nauplius/media/copepedia/taxa/T4000979/html/biometricframe.html,
+Not_Staged,Not_Staged,Thaliacea ,5000,TL,,
+Not_Staged,Not_Staged,Isopoda,1500,TL,,
+Not_Staged,Not_Staged,Oikopleura longicauda,1200,TrL,,
